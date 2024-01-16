@@ -63,7 +63,7 @@ with col3:
             st.header(row['title'])
             st.write(row['description'])
             st.image(f'images/{i+1}.png')
-            st.write(f'[Source Code]({row['url']})')
+            st.write(f'[Source Code]({row["url"]})')
 
 with col4:
     for i, row in file.iterrows():
@@ -71,4 +71,4 @@ with col4:
             st.header(row['title'])
             st.write(row['description'])
             st.image(f'images/{i + 1}.png')
-            st.write(f'[Source Code]({row['url']})')
+            st.write(f'[Source Code]({row["url"]})')
