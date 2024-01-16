@@ -1,5 +1,5 @@
 import streamlit as st
-from send_email import sendEmail
+from emailFeature.send_email import sendEmail
 
 st.header('Contact Me')
 
